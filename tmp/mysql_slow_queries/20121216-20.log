@@ -1,0 +1,6 @@
+# Sun Dec 16 20:46:47 2012
+# Query_time: 11.969439  Lock_time: 0.000067 Rows_sent: 5  Rows_examined: 5
+use getwellb_wrd1;
+SET timestamp=1355716007;
+SELECT wp_posts.* FROM wp_posts WHERE ID IN (44,30,25,23,11)
+

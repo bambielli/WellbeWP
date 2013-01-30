@@ -1,0 +1,18 @@
+# Mon Jan 21 23:09:51 2013
+# Query_time: 8.507969  Lock_time: 0.000173 Rows_sent: 1  Rows_examined: 1
+use getwellb_wrd1;
+SET timestamp=1358834991;
+SELECT option_value FROM wp_options WHERE option_name = 'uninstall_plugins' LIMIT 1
+
+# Mon Jan 21 23:10:55 2013
+# Query_time: 13.226568  Lock_time: 0.000142 Rows_sent: 409  Rows_examined: 455
+use getwellb_wrd1;
+SET timestamp=1358835055;
+SELECT option_name, option_value FROM wp_options WHERE autoload = 'yes'
+
+# Mon Jan 21 23:17:02 2013
+# Query_time: 11.403671  Lock_time: 0.000141 Rows_sent: 10  Rows_examined: 20
+use getwellb_wrd1;
+SET timestamp=1358835422;
+SELECT   wp_posts.* FROM wp_posts  WHERE 1=1  AND wp_posts.post_type = 'symptoms' AND (wp_posts.post_status = 'publish' OR wp_posts.post_status = 'future' OR wp_posts.post_status = 'draft' OR wp_posts.post_status = 'pending' OR wp_posts.post_status = 'private')  ORDER BY wp_posts.menu_order,wp_posts.post_title asc
+

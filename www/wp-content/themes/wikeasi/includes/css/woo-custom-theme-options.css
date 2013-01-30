@@ -1,0 +1,20 @@
+/*---------------------------------------------------------------------------------------------
+
+TABLE OF CONTENTS:
+
+1. Icon for "References".
+2. Icon for "Profile".
+
+---------------------------------------------------------------------------------------------*/
+
+/*-------------------------------------------------------------------------------------------*/
+/* 1. Icon for "References". */
+/*-------------------------------------------------------------------------------------------*/
+
+#wpbody-content #woo_container #woo-nav ul li.references a { background-image:url(../woo-references/js/img/icon.png); background-repeat: no-repeat; background-position: 13px center; padding-left: 40px; }
+
+/*-------------------------------------------------------------------------------------------*/
+/* 2. Icon for "Profile". */
+/*-------------------------------------------------------------------------------------------*/
+
+#wpbody-content #woo_container #woo-nav ul li.profile a { background-image:url(../../functions/images/ico-forum.png); background-repeat: no-repeat; background-position: 15px center; padding-left: 40px; }

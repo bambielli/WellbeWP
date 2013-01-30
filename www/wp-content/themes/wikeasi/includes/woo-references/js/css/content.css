@@ -1,0 +1,7 @@
+.mceWooReference {
+	background: transparent url(../img/content-marker.png) no-repeat right top;
+	display: inline-block;
+	zoom: 1;
+	height: 16px;
+	width: 16px;
+}

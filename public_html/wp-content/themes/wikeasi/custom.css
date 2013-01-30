@@ -1,0 +1,80 @@
+/* 
+WOO CUSTOM STYLESHEET
+---------------------
+
+Instructions:
+
+Add your custom styles in this file instead of style.css so it 
+is easier to update the theme. Simply copy an existing style 
+from style.css to this file, and modify it to your liking. */
+
+#wrapper { width: 960px; margin-left:auto; margin-right:auto; }
+#main.fullwidth, .layout-full #main, .col-full { width: 960px; margin: 0 0; }
+
+#header { display: none; }
+.home #top { margin-bottom: 20px; }
+
+#top { background: #5581B5; }
+#top { background: #5581B5; /*Fallback*/ background: -webkit-gradient(linear,left top,left bottom,from(#5581B5),to(#5581B5)); background: -webkit-linear-gradient(#5581B5,#5581B5); background: -moz-linear-gradient(center top,#5581B5 0%,#5581B5 100%); background: -moz-gradient(center top,#5581B5 0%,#5581B5 100%); filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#5581B5,endColorstr=#5581B5); -ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#5581B5,endColorstr=#5581B5)"; ; }
+
+#top nav.col-full { border-right: 1px solid #5581B5 }
+#top-nav.nav a { border: none; color: #fff; padding: 10px 15px; line-height: 18px; text-decoration: none; text-shadow: none; }
+#top-nav.nav a:hover, #top-nav.nav li.current_page_item a, #top-nav.nav li.current_page_parent a, #top-nav.nav li.current-menu-ancestor a, #top-nav.nav li.current-cat a, #top-nav.nav li.current-menu-item a, #top-nav.nav li.sfHover { background: #5581B5; color: #fff; border: none; border-radius: 0; -moz-border-radius: 0; -webkit-border-radius: 0; }
+#top-nav.nav li, #top-nav.nav li.sfHover { border-left: 1px solid #5581B5 }
+#top ul.rss { display: none; }
+
+#content { padding: 0 0 0em; background-color: #E0DFDC; }
+#main { padding-top: 10px; padding-left: 10px; padding-right: 10px; background-color: #ffffff; min-height: 400px; }
+#sidebar { padding: 8px; }
+
+.home #main { padding-left: 0px; padding-right: 0px; background-color: transparent; }
+.home #content { background-color: transparent; }
+
+#footer-container { background-color: #5581B5; border-top: 0px; }
+#footer-container:before { border-top: 0px solid #589CDC; content: ''; position: absolute; width: 100%; }
+#footer { color: #fff; padding: 10px 0 10px; }
+
+#advanced-search-form { height: 280px; vertical-align: middle; text-align: center; background: url(http://www.getwellbe.com/wp-content/uploads/2012/10/wellbe_home.png) no-repeat; background-color: #589CDC; border: 3px solid #dbe9f5; margin-bottom: 20px; margin-top: -3px; padding: 20px 20px 25px; -moz-border-radius: 6px; -webkit-border-radius: 6px; border-radius: 6px; }
+
+#advanced-search-form h1 { color: #fff; font-size: 60px; font-family: Droid Serif,Georgia,times,serif; margin-bottom: 10px; margin-top: -3px; text-shadow: 0 -1px 0 hsla(0,0%,0%,.3); }
+#advanced-search-form h2 { color: #fff; font-size: 18px; font-family: Droid Serif,Georgia,times,serif; margin-bottom: 10px; margin-top: -3px; text-shadow: 0 -1px 0 hsla(0,0%,0%,.3); }
+#advanced-search-form input { background: url(images/ico-advanced-search.png) no-repeat scroll 15px center #ffffff; color: #000; font: 16px/16px Droid Serif,Georgia,times,serif; padding: 0 0 0 40px; height: 31px; width: 77.5%; border-color: #366693 #417AB0 #4888C4; border-style: solid; border-width: 2px 1px 1px; -moz-box-shadow: 0 7px 3px -8px rgba(0,0,0,0.6) inset; -webkit-box-shadow: 0 7px 3px -8px rgba(0,0,0,0.6) inset; box-shadow: 0 7px 3px -8px rgba(0,0,0,0.6) inset; border-radius: 4px; -moz-border-radius: 4px; -webkit-border-radius: 4px; text-shadow: 0 -1px 0 hsla(0,0%,0%,.3); outline: none; }
+
+body.has-secondary-sidebar #main #advanced-search-form input { background: none no-repeat scroll 15px center #4C8FCE; padding: 0 0 0 10px; width: 85%; }
+
+
+#second-main-row .alignleft { float: left; margin: 0; width: 660px; background: #f3f3f3; min-height: 325px; }
+#second-main-row .alignright { float: right; margin: 0; width: 300px; background: #f3f3f3; min-height: 325px; }
+
+#connect { background: #f3f3f3; margin: 0 0 1.5em; padding: 15px; border: 0px dotted #B2B3B3; border-width: 0px 0; clear: both; }
+
+#post-author { display: none; }
+#post-entries { display: none; }
+
+#commentform .comment-form-comment label { display: block; }
+
+#footer-widgets { border-top: 0px solid #E0E0E0; padding: 10px 0; }
+#footer-widgets .block { padding: 0px 0px 0; width: 180px; float: left; }
+#footer-widgets.col-1 .block { width: 100%; padding-left: 0; }
+#footer-widgets.col-2 .block { width: 460px }
+#footer-widgets.col-3 .block { width: 300px }
+#footer-widgets.col-4 .block { width: 180px }
+#footer-widgets.col-4 .footer-widget-1 { width: 20% }
+#footer-widgets.col-4 .footer-widget-2 { width: 80% }
+
+/* .post-meta { display: none; } */
+
+.footer-widget-2 { background-color: #ffffff; height: auto; display: block; padding: 5px; border-radius: 4px; -moz-border-radius: 4px; -webkit-border-radius: 4px; }
+
+/* 4.1 Generic Widgets */
+.footer-widget-2 .widget_text { background-color: #f3f3f3; padding: 5px; font-weight: bold; border-top: 1px solid #E0E0E0; border-bottom: 1px solid #E0E0E0;}
+
+
+#footer-widgets .widget { margin-bottom: 0em }
+#footer-widgets .widget ul { clear: both; list-style-position: inside; list-style-type: none; padding-left: 0; }
+#footer-widgets .widget ul li { background: none repeat scroll 0 0 transparent; border-top: 0px solid #e0e0e0; border-bottom: 1px solid #e0e0e0; font-size: 12px; overflow: hidden; padding: 5px; font-weight: bold;}
+#footer-widgets .widget ul li a { color: #585858; font-size: 14px; padding: 0; line-height: 1; text-decoration: none; }
+#footer-widgets .widget ul li a:hover { color: #5DA1E1; text-decoration: none; }
+#footer-widgets .widget ul li.current-menu-item { color: #5DA1E1 }
+#footer-widgets .widget ul ul { border-top: none }
+#footer-widgets .widget ul li ul.children li:last-child { border: none }

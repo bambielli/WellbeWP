@@ -1,0 +1,6 @@
+# Sun Dec 16 15:38:01 2012
+# Query_time: 13.152109  Lock_time: 1.152757 Rows_sent: 399  Rows_examined: 445
+use getwellb_wrd1;
+SET timestamp=1355697481;
+SELECT option_name, option_value FROM wp_options WHERE autoload = 'yes'
+

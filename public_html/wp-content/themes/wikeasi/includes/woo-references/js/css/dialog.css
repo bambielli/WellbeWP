@@ -1,0 +1,5 @@
+#woo-options li { padding: 10px; margin: 0; }
+#woo-options li.odd { background: #F2F2F2; }
+#woo-options li.selected { background: #21759B; color: #FFFFFF; text-shadow: rgba(0, 0, 0, 0.3) 0 -1px 0; }
+#woo-options li input { margin-right: 5px; }
+#woo-options ul { height: auto; overflow: auto; }

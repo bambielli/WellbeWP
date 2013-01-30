@@ -1,0 +1,30 @@
+# Mon Jan 28 23:25:34 2013
+# Query_time: 6.681761  Lock_time: 4.437319 Rows_sent: 0  Rows_examined: 0
+use getwellb_wrd1;
+SET timestamp=1359440734;
+SELECT option_value FROM wp_options WHERE option_name = 'widget_woo_twitter' LIMIT 1
+
+# Mon Jan 28 23:25:50 2013
+# Query_time: 4.413223  Lock_time: 0.082868 Rows_sent: 0  Rows_examined: 0
+use getwellb_wrd1;
+SET timestamp=1359440750;
+SELECT option_value FROM wp_options WHERE option_name = 'widget_tag_cloud' LIMIT 1
+
+# Mon Jan 28 23:25:55 2013
+# Query_time: 4.494311  Lock_time: 0.076608 Rows_sent: 0  Rows_examined: 0
+use getwellb_wrd1;
+SET timestamp=1359440755;
+SELECT option_value FROM wp_options WHERE option_name = 'widget_nav_menu' LIMIT 1
+
+# Mon Jan 28 23:26:08 2013
+# Query_time: 8.878198  Lock_time: 4.475551 Rows_sent: 1  Rows_examined: 1
+use getwellb_wrd1;
+SET timestamp=1359440768;
+SELECT option_value FROM wp_options WHERE option_name = '_piplistemails_installed_version' LIMIT 1
+
+# Mon Jan 28 23:26:19 2013
+# Query_time: 5.918427  Lock_time: 4.429533 Rows_sent: 0  Rows_examined: 1
+use getwellb_wrd1;
+SET timestamp=1359440779;
+DELETE FROM wp_options WHERE option_name = 'rewrite_rules'
+

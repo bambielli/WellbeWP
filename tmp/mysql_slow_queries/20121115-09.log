@@ -1,0 +1,12 @@
+# Thu Nov 15 09:03:40 2012
+# Query_time: 16.451576  Lock_time: 0.000086 Rows_sent: 0  Rows_examined: 1
+use getwellb_wrd1;
+SET timestamp=1352995420;
+DELETE FROM wp_options WHERE option_name = 'rewrite_rules'
+
+# Thu Nov 15 09:03:54 2012
+# Query_time: 4.607388  Lock_time: 0.000070 Rows_sent: 0  Rows_examined: 1
+use getwellb_wrd1;
+SET timestamp=1352995434;
+DELETE FROM wp_options WHERE option_name = 'rewrite_rules'
+

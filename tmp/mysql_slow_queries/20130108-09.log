@@ -1,0 +1,6 @@
+# Tue Jan  8 09:08:56 2013
+# Query_time: 4.538095  Lock_time: 0.000138 Rows_sent: 0  Rows_examined: 0
+use getwellb_wrd1;
+SET timestamp=1357661336;
+SELECT t.*, tt.*, tr.object_id FROM wp_terms AS t INNER JOIN wp_term_taxonomy AS tt ON tt.term_id = t.term_id INNER JOIN wp_term_relationships AS tr ON tr.term_taxonomy_id = tt.term_taxonomy_id WHERE tt.taxonomy IN ('category', 'post_tag', 'post_format') AND tr.object_id IN (195) ORDER BY t.name ASC
+

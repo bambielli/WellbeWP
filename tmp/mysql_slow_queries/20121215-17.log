@@ -1,0 +1,6 @@
+# Sat Dec 15 17:41:01 2012
+# Query_time: 5.892660  Lock_time: 0.000069 Rows_sent: 0  Rows_examined: 1
+use getwellb_wrd1;
+SET timestamp=1355618461;
+DELETE FROM wp_options WHERE option_name = 'rewrite_rules'
+

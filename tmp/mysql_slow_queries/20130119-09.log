@@ -1,0 +1,6 @@
+# Sat Jan 19 09:06:05 2013
+# Query_time: 4.220695  Lock_time: 0.000078 Rows_sent: 0  Rows_examined: 2
+use getwellb_wrd1;
+SET timestamp=1358611565;
+SELECT ID FROM wp_posts WHERE post_parent = 2 AND post_type = 'page' AND post_status = 'publish' LIMIT 1
+

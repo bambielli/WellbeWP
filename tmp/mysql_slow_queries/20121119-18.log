@@ -1,0 +1,6 @@
+# Mon Nov 19 18:58:01 2012
+# Query_time: 13.198581  Lock_time: 0.000155 Rows_sent: 1  Rows_examined: 1
+use getwellb_wrd1;
+SET timestamp=1353376681;
+SELECT option_value FROM wp_options WHERE option_name = 'uninstall_plugins' LIMIT 1
+

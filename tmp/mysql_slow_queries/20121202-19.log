@@ -1,0 +1,6 @@
+# Sun Dec  2 19:06:40 2012
+# Query_time: 11.909083  Lock_time: 0.001924 Rows_sent: 1  Rows_examined: 6
+use getwellb_wrd1;
+SET timestamp=1354500400;
+SELECT   wp_posts.*, wp_p2p.* FROM wp_posts  INNER JOIN wp_p2p WHERE 1=1  AND wp_posts.post_type IN ('post') AND (wp_posts.post_status = 'publish' OR wp_posts.post_author = 1 AND wp_posts.post_status = 'private') AND (wp_p2p.p2p_type = 'posts_to_treatments' AND wp_posts.ID = wp_p2p.p2p_from AND wp_p2p.p2p_to IN (SELECT   wp_posts.ID FROM wp_posts  WHERE 1=1  AND wp_posts.ID IN (50) AND wp_posts.post_type IN ('treatments') AND (wp_posts.post_status = 'publish' OR wp_posts.post_author = 1 AND wp_posts.post_status = 'private')  ORDER BY wp_posts.post_date DESC ))  ORDER BY wp_posts.post_date DESC
+

@@ -1,0 +1,150 @@
+body {
+	background: #FAFAF6;
+}
+
+body,
+h1, h2, h3, h4, h5, h6,
+.nav a:hover,
+.nav li.current_page_item a, 
+.nav li.current_page_parent a,
+.nav li.current-menu-ancestor a,
+.nav li.current-cat a,
+.nav li.current-menu-item a,
+.nav li.sfHover,
+#navigation .nav li ul li a:hover,  
+#mini-features h3,
+#latest-blog-posts .post h2.title a,
+.post .title a, .portfolio .title a,
+.widget h3,
+#tabs .inside li a,
+#comments .comment-head a,
+h3.archive_year,
+.ie6 .button, .ie6 .button:visited,
+.reply a,
+.slide .entry h2,
+.port-cat a:hover, .port-cat a.current { 
+	color: #4b443f; 
+}
+
+a, a:hover, .widget ul li a:hover, .entry .table_of_contents ol, .table_of_contents h4 small {
+    color: #706B39;
+}
+
+#header-container, #content {
+    border-color: #dbd7d4;
+}
+
+.nav a ,
+#navigation .nav li ul li a,
+#footer,
+.post-meta,
+.ico-cal,
+.widget a,
+#tabs ul.wooTabs li a,
+#tabs .inside li span.meta,
+#comments .comment-head .date, #comments .comment-head .edit, #comments .comment-head .perma,
+.port-cat a {
+	color:#706B39;
+}
+
+#advanced-search-form {
+    background-color: #B0A859;
+}
+#advanced-search-form input, body.has-secondary-sidebar #main #advanced-search-form input {
+    background-color: #706B39;
+    border-color: #706B39;
+}
+#advanced-search-form {
+    border-color: #E6E5C5;
+}
+#advanced-search-form button.adv-button, body.has-secondary-sidebar #main #advanced-search-form button.adv-button {
+    background-color: #BDB560;
+    border-color: #706B39;
+}
+#commentform input.txt,
+#commentform textarea,
+#connect .newsletter-form,
+#post-author
+{
+	color: #7e736d; 
+	background-color: #f9f7f6;
+    border-color: #e4dfdc;
+}
+
+.container .comments { 
+border-color: #706B39;
+background: #706B39; 
+background: -webkit-gradient(linear, left top, left bottom, from(#B0A859), to(#706B39));
+background: -webkit-linear-gradient(#B0A859, #706B39);
+background: -moz-linear-gradient(center top, #B0A859 0%, #706B39 100%);
+background: -moz-gradient(center top, #B0A859 0%, #706B39 100%);filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#B0A859,endColorstr=#706B39); -ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#B0A859, endColorstr=#706B39)"; }
+
+.container .comments:after { border-color: #706B39 transparent; }
+
+.meta-nav,
+#breadcrumbs,
+#post-entries a,
+#title-container .blog-title-sep,
+#title-container .description,
+.searchform input.s { 
+	color: #706B39; 
+}
+
+#footer-container:before {
+    border-top: 5px solid #B0A859;
+}
+#footer-container {
+    border-top: 4px solid #E6E5C5;
+}
+a.button, 
+a.comment-reply-link, 
+#commentform #submit,
+.submit,
+input[type=submit],
+input.button,
+button.button {
+    border-color: #706B39;
+	/*Background*/
+	background: #706B39; /*Fallback*/
+  	background: -webkit-gradient(linear, left top, left bottom, from(#B0A859), to(#706B39));
+  	background: -webkit-linear-gradient(#B0A859, #706B39);
+  	background: -moz-linear-gradient(center top, #B0A859 0%, #706B39 100%);
+  	background: -moz-gradient(center top, #B0A859 0%, #706B39 100%);
+  	filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#B0A859,endColorstr=#706B39);
+  	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#B0A859, endColorstr=#706B39)";
+}
+
+a.button:hover, a.button.hover, a.comment-reply-link:hover, #commentform #submit:hover, .submit:hover, input[type=submit]:hover, input.button:hover, button.button:hover { opacity: .8 }
+a.button:active, a.button.active, button.button:active, input.submit:active, a.comment-reply-link:active, input#submit:active {
+	text-decoration: none !important;
+
+	/*Background*/
+	background: #B0A859; /*Fallback*/
+  	background: -webkit-gradient(linear, left top, left bottom, from(#706B39), to(#B0A859));
+  	background: -webkit-linear-gradient(#706B39, #B0A859);
+  	background: -moz-linear-gradient(center top, #706B39 0%, #B0A859 100%);
+  	background: -moz-gradient(center top, #706B39 0%, #B0A859 100%);
+  	filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#706B39,endColorstr=#B0A859);
+  	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#706B39, endColorstr=#B0A859)";
+  	
+  		/*Box shadow*/
+	-webkit-box-shadow: inset 0 1px 0 rgba(0, 0, 0, 0.05) /*Top*/, 
+						inset 1px 1px 4px -1px rgba(0, 0, 0, 0.2) /*Shine*/, 
+						0 1px 2px hsla(0, 0%, 0%, .01) /*Shadow*/;
+	-moz-box-shadow: inset 0 1px 0 rgba(0, 0, 0, 0.05) /*Top*/, 
+					inset 1px 1px 4px -1px rgba(0, 0, 0, 0.2) /*Shine*/, 
+					0 1px 2px hsla(0, 0%, 0%, .01) /*Shadow*/;
+	box-shadow: inset 0 1px 0 rgba(0, 0, 0, 0.05) /*Top*/, 
+				inset 1px 1px 4px -1px rgba(0, 0, 0, 0.2) /*Shine*/, 
+				0 1px 2px hsla(0, 0%, 0%, .01) /*Shadow*/;
+
+}
+#navigation .nav li {
+    background-image: url("yellow/arrow-nav-right.png");
+    }
+#advanced-search-form input {
+    background-image: url("yellow/ico-advanced-search.png");
+}
+.widget a.toggle {
+    background-image: url("yellow/arrow-nav-down.png");
+}

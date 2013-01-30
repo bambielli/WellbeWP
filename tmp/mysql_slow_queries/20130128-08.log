@@ -1,0 +1,6 @@
+# Mon Jan 28 08:21:05 2013
+# Query_time: 5.399623  Lock_time: 0.013923 Rows_sent: 69  Rows_examined: 69
+use getwellb_wrd1;
+SET timestamp=1359386465;
+SELECT user_id, meta_key, meta_value FROM wp_usermeta WHERE user_id IN (1)
+

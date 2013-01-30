@@ -1,0 +1,32 @@
+# Wed Dec  5 09:52:27 2012
+# Query_time: 7.075975  Lock_time: 0.000316 Rows_sent: 1  Rows_examined: 1
+use getwellb_wrd1;
+SET timestamp=1354726347;
+SELECT autoload FROM wp_options WHERE option_name = 'rewrite_rules'
+
+# Wed Dec  5 09:52:27 2012
+# Query_time: 1.867626  Lock_time: 0.000272 Rows_sent: 1  Rows_examined: 1
+SET timestamp=1354726347;
+SELECT autoload FROM wp_options WHERE option_name = 'rewrite_rules'
+
+# Wed Dec  5 09:52:27 2012
+# Query_time: 6.488893  Lock_time: 0.002821 Rows_sent: 1  Rows_examined: 1
+SET timestamp=1354726347;
+SELECT autoload FROM wp_options WHERE option_name = 'rewrite_rules'
+
+# Wed Dec  5 09:52:27 2012
+# Query_time: 11.590935  Lock_time: 0.004047 Rows_sent: 1  Rows_examined: 1
+SET timestamp=1354726347;
+SELECT autoload FROM wp_options WHERE option_name = 'rewrite_rules'
+
+# Wed Dec  5 09:52:27 2012
+# Query_time: 1.236038  Lock_time: 0.001040 Rows_sent: 1  Rows_examined: 1
+SET timestamp=1354726347;
+SELECT autoload FROM wp_options WHERE option_name = 'rewrite_rules'
+
+# Wed Dec  5 09:52:28 2012
+# Query_time: 11.600567  Lock_time: 0.003940 Rows_sent: 1  Rows_examined: 1
+use getwellb_wrd1;
+SET timestamp=1354726348;
+SELECT autoload FROM wp_options WHERE option_name = 'rewrite_rules'
+

@@ -1,0 +1,6 @@
+# Sun Dec  9 04:06:49 2012
+# Query_time: 11.794342  Lock_time: 0.000057 Rows_sent: 0  Rows_examined: 0
+use getwellb_wrd1;
+SET timestamp=1355051209;
+SELECT option_value FROM wp_options WHERE option_name = '_transient_timeout_doing_cron' LIMIT 1
+

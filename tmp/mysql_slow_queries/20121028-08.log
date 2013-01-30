@@ -1,0 +1,6 @@
+# Sun Oct 28 08:44:40 2012
+# Query_time: 11.826960  Lock_time: 0.001792 Rows_sent: 4  Rows_examined: 4
+use getwellb_wrd1;
+SET timestamp=1351435480;
+SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (87)
+

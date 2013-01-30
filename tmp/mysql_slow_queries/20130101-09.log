@@ -1,0 +1,6 @@
+# Tue Jan  1 09:01:39 2013
+# Query_time: 11.201167  Lock_time: 0.000088 Rows_sent: 4  Rows_examined: 8
+use getwellb_wrd1;
+SET timestamp=1357056099;
+SELECT * FROM wp_comments  WHERE comment_approved = '1' AND comment_post_ID = 11 ORDER BY comment_date_gmt ASC
+

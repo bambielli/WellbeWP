@@ -1,0 +1,6 @@
+# Mon Jan  7 22:29:24 2013
+# Query_time: 11.869555  Lock_time: 0.000082 Rows_sent: 4  Rows_examined: 8
+use getwellb_wrd1;
+SET timestamp=1357622964;
+SELECT   wp_posts.* FROM wp_posts  WHERE 1=1  AND wp_posts.ID IN (9,248,256,280) AND wp_posts.post_type = 'nav_menu_item' AND (wp_posts.post_status = 'publish') GROUP BY wp_posts.ID ORDER BY wp_posts.menu_order ASC
+

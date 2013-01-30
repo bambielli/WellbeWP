@@ -1,0 +1,52 @@
+*** Wikeasi Changelog ***
+
+2012.07.31 - version 1.2.5
+ * images/ico-subscribe-social.png - Updated Twitter Icon
+ * images/twitter.png - Updated Twitter Icon
+ * includes/widget/widget-woo-twitter.php - Added "Twitter" text for default widget title
+
+2012.04.12 - version 1.2.4
+ * /includes/theme-user-profiles.php - Make sure the filter for the author archives doesn't run if in the WordPress admin.
+ * /includes/theme-js.php - Change the "Q" in the word jQuery to a lowercase "q" in accordance with the case of the filename for jquery.tipTip.minified.js.
+
+2012.03.13 - version 1.2.3
+ * /includes/theme-js.php - Include tipTip JavaScript and CSS.
+ * /includes/js/jquery.tipTip.minified.js - Include tipTip JavaScript.
+ * /includes/css/tipTip.css - Include tipTip CSS.
+ * /includes/js/general.js - Replace custom tooltip code with tipTip JavaScript call for reference tooltips.
+
+2012.01.14 - version 1.2.2
+ * search-results.php - Change entry markup to resemble that of index.php. Added image thumbnail display.
+ * style.css - Minor CSS adjustments to accommodate the search results styling, making it resemble index.php.
+ * /includes/theme-functions.php - Make the modified date value translatable by changing the last parameter in get_post_modified_time() from false to true.
+
+2011.12.26 - version 1.2.1
+ * template-blog.php - category exclusion fix
+
+2011.12.19 - version 1.2
+ * archive.php - Added a Display/Hide Pagination option
+ * author.php - Added a Display/Hide Pagination option
+ * index.php - Added a Display/Hide Pagination option
+ * template-blog.php - Added a Display/Hide Pagination option
+ * theme-options.php - Added a Display/Hide Pagination option
+
+2011.12.17 - version 1.1.1
+ * search-results.php - Make sure only published entries are returned in the AJAX search query.
+
+2011.12.14 - version 1.1.0
+ * /includes/filter-bar.php - Add "Alphabetical" sorting option.
+ * /includes/theme-functions.php - Add logic to ensure that "Alphabetical" sorts in the "ascending" direction.
+
+2011.12.04 - version 1.0.3
+ * /includes/theme-functions.php - Make sure the table of contents automation runs only on single posts/pages and only in the main loop.
+
+2011.12.01 - version 1.0.2
+ * single.php = Make sure the template file obeys the "display thumbnails on single posts" theme option.
+
+2011.11.23 - version 1.0.1
+ * style.css - Clean up CSS sub-commenting structures and re-add default styling for "strong" and "em" tags.
+ * /includes/theme-functions.php - Restored missing code for AJAX search and search-related body tag CSS classes.
+ * /includes/theme-actions.php - Removed code for search-related body tag CSS classes, in favour of a dedicated functions.
+
+2011.11.22 - version 1.0
+ * First release!

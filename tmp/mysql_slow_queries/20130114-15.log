@@ -1,0 +1,6 @@
+# Mon Jan 14 15:16:36 2013
+# Query_time: 12.011099  Lock_time: 0.050250 Rows_sent: 0  Rows_examined: 0
+use getwellb_wrd1;
+SET timestamp=1358201796;
+SELECT option_value FROM wp_options WHERE option_name = 'scep_procode' LIMIT 1
+

@@ -1,0 +1,12 @@
+# Wed Dec 12 05:54:03 2012
+# Query_time: 3.717166  Lock_time: 0.003413 Rows_sent: 374  Rows_examined: 420
+use getwellb_wrd1;
+SET timestamp=1355316843;
+SELECT option_name, option_value FROM wp_options WHERE autoload = 'yes'
+
+# Wed Dec 12 05:55:07 2012
+# Query_time: 7.597396  Lock_time: 0.000124 Rows_sent: 1  Rows_examined: 1
+use getwellb_wrd1;
+SET timestamp=1355316907;
+SELECT option_value FROM wp_options WHERE option_name = 'uninstall_plugins' LIMIT 1
+

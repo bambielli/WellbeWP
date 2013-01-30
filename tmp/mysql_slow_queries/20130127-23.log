@@ -1,0 +1,60 @@
+# Sun Jan 27 23:37:05 2013
+# Query_time: 7.800910  Lock_time: 5.495659 Rows_sent: 1  Rows_examined: 1
+use getwellb_wrd1;
+SET timestamp=1359355025;
+SELECT option_value FROM wp_options WHERE option_name = 'uninstall_plugins' LIMIT 1
+
+# Sun Jan 27 23:37:14 2013
+# Query_time: 8.564235  Lock_time: 4.086405 Rows_sent: 0  Rows_examined: 0
+use getwellb_wrd1;
+SET timestamp=1359355034;
+SELECT option_value FROM wp_options WHERE option_name = 'widget_woo_adwidget' LIMIT 1
+
+# Sun Jan 27 23:37:32 2013
+# Query_time: 4.489170  Lock_time: 0.076712 Rows_sent: 0  Rows_examined: 0
+use getwellb_wrd1;
+SET timestamp=1359355052;
+SELECT option_value FROM wp_options WHERE option_name = 'widget_calendar' LIMIT 1
+
+# Sun Jan 27 23:37:37 2013
+# Query_time: 4.492298  Lock_time: 0.090041 Rows_sent: 0  Rows_examined: 0
+use getwellb_wrd1;
+SET timestamp=1359355057;
+SELECT option_value FROM wp_options WHERE option_name = 'widget_archives' LIMIT 1
+
+# Sun Jan 27 23:37:50 2013
+# Query_time: 8.941695  Lock_time: 4.438577 Rows_sent: 0  Rows_examined: 0
+use getwellb_wrd1;
+SET timestamp=1359355070;
+SELECT option_value FROM wp_options WHERE option_name = 'widget_meta' LIMIT 1
+
+# Sun Jan 27 23:38:04 2013
+# Query_time: 13.487985  Lock_time: 0.000183 Rows_sent: 0  Rows_examined: 0
+use getwellb_wrd1;
+SET timestamp=1359355084;
+SELECT option_value FROM wp_options WHERE option_name = 'widget_tag_cloud' LIMIT 1
+
+# Sun Jan 27 23:38:09 2013
+# Query_time: 5.453146  Lock_time: 0.131272 Rows_sent: 0  Rows_examined: 0
+use getwellb_wrd1;
+SET timestamp=1359355089;
+SELECT option_value FROM wp_options WHERE option_name = 'widget_nav_menu' LIMIT 1
+
+# Sun Jan 27 23:38:24 2013
+# Query_time: 4.409630  Lock_time: 0.003230 Rows_sent: 1  Rows_examined: 1
+use getwellb_wrd1;
+SET timestamp=1359355104;
+SELECT autoload FROM wp_options WHERE option_name = 'rewrite_rules'
+
+# Sun Jan 27 23:38:28 2013
+# Query_time: 4.492869  Lock_time: 0.000137 Rows_sent: 0  Rows_examined: 1
+use getwellb_wrd1;
+SET timestamp=1359355108;
+DELETE FROM wp_options WHERE option_name = 'rewrite_rules'
+
+# Sun Jan 27 23:38:48 2013
+# Query_time: 20.432574  Lock_time: 15.727377 Rows_sent: 0  Rows_examined: 0
+use getwellb_wrd1;
+SET timestamp=1359355128;
+SELECT option_value FROM wp_options WHERE option_name = 'rewrite_rules' LIMIT 1
+

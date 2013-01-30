@@ -1,0 +1,18 @@
+# Fri Jan 11 09:08:03 2013
+# Query_time: 4.123166  Lock_time: 0.000131 Rows_sent: 0  Rows_examined: 0
+use getwellb_wrd1;
+SET timestamp=1357920483;
+SELECT t.*, tt.*, tr.object_id FROM wp_terms AS t INNER JOIN wp_term_taxonomy AS tt ON tt.term_id = t.term_id INNER JOIN wp_term_relationships AS tr ON tr.term_taxonomy_id = tt.term_taxonomy_id WHERE tt.taxonomy IN ('category', 'post_tag', 'post_format') AND tr.object_id IN (269) ORDER BY t.name ASC
+
+# Fri Jan 11 09:08:12 2013
+# Query_time: 2.348121  Lock_time: 0.000111 Rows_sent: 0  Rows_examined: 0
+use getwellb_wrd1;
+SET timestamp=1357920492;
+SELECT t.*, tt.*, tr.object_id FROM wp_terms AS t INNER JOIN wp_term_taxonomy AS tt ON tt.term_id = t.term_id INNER JOIN wp_term_relationships AS tr ON tr.term_taxonomy_id = tt.term_taxonomy_id WHERE tt.taxonomy IN ('category', 'post_tag', 'post_format') AND tr.object_id IN (250) ORDER BY t.name ASC
+
+# Fri Jan 11 09:08:28 2013
+# Query_time: 14.043046  Lock_time: 2.146230 Rows_sent: 0  Rows_examined: 0
+use getwellb_wrd1;
+SET timestamp=1357920508;
+SELECT autoload FROM wp_options WHERE option_name = 'scep_param_sidebar_show_cst_boxes'
+
